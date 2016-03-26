@@ -1,4 +1,4 @@
-# Half-Faked
+# Half-Faked [![Build Status](https://travis-ci.org/HelpfulHuman/Half-Faked.svg?branch=master)](https://travis-ci.org/HelpfulHuman/Half-Faked)
 
 _Half-Faked_ is a tool for generating fake data for a given schema definition.  It was originally apart of the [Restfool](https://github.com/HelpfulHuman/Restfool) library as the `fixture()` function, but has since been isolated into its own module.  This tool can be used for creating more accurate and varied test cases, modeling data architecture, or even setting up mock services that deliver data for your front-end team(s) to develop against.
 
