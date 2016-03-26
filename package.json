@@ -6,8 +6,8 @@
   "jsnext:main": "src/index.js",
   "scripts": {
     "build": "rollup -c",
-    "prepublish": "rm -rf dist/* && npm run build && npm run test",
-    "test": "mocha",
+    "build-clean": "rm -rf dist/* && npm run build",
+    "test": "npm run build-clean && mocha",
     "tdd": "npm run test -- --watch"
   },
   "repository": {
