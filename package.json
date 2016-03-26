@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple tool for generating fake data using schemas.",
   "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
   "scripts": {
     "test": "mocha",
     "tdd": "npm run test -- --watch"
